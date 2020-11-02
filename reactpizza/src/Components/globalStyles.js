@@ -8,7 +8,11 @@ export const GlobalStyle=createGlobalStyle`
     font-family:"Kanit", sans-serif;
     
 }
-body{
-    overflow-x:hidden;
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 `
